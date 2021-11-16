@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "focal-set-306013-tfstate"
+    bucket = "state-rosh"
     prefix = "env/prod"
   }
 }
